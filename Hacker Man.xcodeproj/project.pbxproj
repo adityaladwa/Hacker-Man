@@ -13,6 +13,10 @@
 		4BB9691B248A80D50036D2F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BB9691A248A80D50036D2F5 /* Assets.xcassets */; };
 		4BB9691E248A80D50036D2F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BB9691D248A80D50036D2F5 /* Preview Assets.xcassets */; };
 		4BB96921248A80D50036D2F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BB9691F248A80D50036D2F5 /* LaunchScreen.storyboard */; };
+		4BB9692A248A84290036D2F5 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB96929248A84290036D2F5 /* NetworkManager.swift */; };
+		4BB9692C248A864F0036D2F5 /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB9692B248A864F0036D2F5 /* Results.swift */; };
+		4BB9692F248A8E090036D2F5 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB9692E248A8E090036D2F5 /* DetailView.swift */; };
+		4BB96931248A912D0036D2F5 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB96930248A912D0036D2F5 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		4BB9691D248A80D50036D2F5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4BB96920248A80D50036D2F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BB96922248A80D50036D2F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BB96929248A84290036D2F5 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		4BB9692B248A864F0036D2F5 /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
+		4BB9692E248A8E090036D2F5 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		4BB96930248A912D0036D2F5 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +64,10 @@
 		4BB96913248A80D40036D2F5 /* Hacker Man */ = {
 			isa = PBXGroup;
 			children = (
+				4BB96928248A84140036D2F5 /* Model */,
 				4BB96914248A80D40036D2F5 /* AppDelegate.swift */,
 				4BB96916248A80D40036D2F5 /* SceneDelegate.swift */,
-				4BB96918248A80D40036D2F5 /* ContentView.swift */,
+				4BB9692D248A8DF10036D2F5 /* View */,
 				4BB9691A248A80D50036D2F5 /* Assets.xcassets */,
 				4BB9691F248A80D50036D2F5 /* LaunchScreen.storyboard */,
 				4BB96922248A80D50036D2F5 /* Info.plist */,
@@ -73,6 +82,25 @@
 				4BB9691D248A80D50036D2F5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4BB96928248A84140036D2F5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4BB96929248A84290036D2F5 /* NetworkManager.swift */,
+				4BB9692B248A864F0036D2F5 /* Results.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4BB9692D248A8DF10036D2F5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4BB96918248A80D40036D2F5 /* ContentView.swift */,
+				4BB9692E248A8E090036D2F5 /* DetailView.swift */,
+				4BB96930248A912D0036D2F5 /* WebView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,8 +175,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BB96915248A80D40036D2F5 /* AppDelegate.swift in Sources */,
+				4BB9692F248A8E090036D2F5 /* DetailView.swift in Sources */,
+				4BB9692A248A84290036D2F5 /* NetworkManager.swift in Sources */,
 				4BB96917248A80D40036D2F5 /* SceneDelegate.swift in Sources */,
 				4BB96919248A80D40036D2F5 /* ContentView.swift in Sources */,
+				4BB9692C248A864F0036D2F5 /* Results.swift in Sources */,
+				4BB96931248A912D0036D2F5 /* WebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
